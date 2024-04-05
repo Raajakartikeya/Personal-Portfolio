@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 export default function App(){
+  
   return (
     <>
       <header className='header'>
@@ -9,9 +10,9 @@ export default function App(){
         <nav className='navbar'>
           <a href="#home" className='active'>Home </a>
           <a href="#skills">Skills </a>
-          <a href="#projects">Projects </a>
-          <a href="#projects">Resume </a>
-          <a href="#contact">Contact </a>
+          <a href="https://github.com/raajakartikeya" target='_blank'>Projects </a>
+          <a href="https://drive.google.com/file/d/1RcIQJZWY0ppQZIX1TKck1RLyLyjKSJxt/view" target='_blank'>Resume </a>
+          <a href="mailto:raajakartikeyanrs@gmail.com">Contact </a>
         </nav>
       </header>
 
@@ -27,6 +28,16 @@ export default function App(){
       <div className='socialicons'>
         <a href="https://github.com/raajakartikeya" target='_blank' ><i className='bx bxl-github' ></i></a>
         <a href="https://www.linkedin.com/in/raajakartikeya/" target='_blank'><i className='bx bxl-linkedin' ></i></a>
+      </div>
+
+      <div id='skills' className='skills'>
+        <h1>SKILLS</h1>
+        <img src="icons/html-5.png" alt="" />
+        <img src="icons/css-3.png" alt="" />
+        <img src="icons/js.png" alt="" />
+        <img src="icons/react.png" alt="" />
+        <img src="icons/python.png" alt="" />
+        <img src="icons/cpp.png" alt="" />
       </div>
 
     </>

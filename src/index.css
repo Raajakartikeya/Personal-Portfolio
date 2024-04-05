@@ -11,7 +11,7 @@ body{
 .header{
     background-color: rgba(0,0,0,0.6);
     padding: 20px;
-    position: fixed;
+    /* position: fixed; */
     top : 0;
     left: 0;
     padding : 3rem;
@@ -19,6 +19,7 @@ body{
     /* justify-content: space-between; */
     display: flex;
     align-items: center;
+    z-index: 10;
 }
 .navbar{
     margin-left: 31%;
@@ -97,13 +98,27 @@ p{
 }
 .socialicons a:hover{
    color: white;
-    transition: 0.2s ease-in-out;
+   transition: 0.2s ease-in-out;
 }
 /* .bx bxl-github,
 .bx bxl-linkedin,
 .bx bxl-twitter{
     
 }  */
-
+.skills{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.skills h1{
+    color: white;
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+}
+.skills img{
+    width: 80px;
+    margin-left: 100px;
+}
 
 
