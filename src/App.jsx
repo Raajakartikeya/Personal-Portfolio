@@ -1,21 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
+import CIcon from '@coreui/icons-react';
+import { cibLeetcode } from '@coreui/icons';
 import './index.css'
+import { Projects } from './components/Projects';
+
 export default function App(){
-  
+
+  const [navClass,setNavClass] = useState("navbar");
+  const [nameID, setNameID] = useState("name");
+  const [popup,setPopup] = useState("");
+  const [button,setButton] = useState(false);
+  // if(button == true)
+  // {
+  //     setNavClass("navbar-active");
+  //     setNameID("namenone");
+  //     setPopup("popup-overlay");
+  // }
+  function func()
+  {
+    button?setButton(false):setButton(true);
+  }
   return (
     <>
       <header className='header'>
-        <a id='name' href="#home">Raaja 
+        <a id={button?"namenone":"name"} href="#home">Raaja 
         <span id='sname'  > Kartikeya</span></a>
-        <nav className='navbar'>
-          <a href="#home" className='active'>Home </a>
+        <button onClick={func} className='menubtn'><i class='bx bx-menu'></i></button>
+        <nav className={button?"navbar-active":"navbar"}>
+          <a href="#home" >Home </a>
           <a href="#skills">Skills </a>
-          <a href="https://github.com/raajakartikeya" target='_blank'>Projects </a>
+          <a href="#projects">Projects </a>
           <a href="https://drive.google.com/file/d/1RcIQJZWY0ppQZIX1TKck1RLyLyjKSJxt/view" target='_blank'>Resume </a>
           <a href="mailto:raajakartikeyanrs@gmail.com">Contact </a>
         </nav>
       </header>
-
+      <div className={button?"popup-overlay":""}></div>
       <div className='image'>
         <img src="images/img2.png" alt="" />
       </div>
@@ -28,6 +47,7 @@ export default function App(){
       <div className='socialicons'>
         <a href="https://github.com/raajakartikeya" target='_blank' ><i className='bx bxl-github' ></i></a>
         <a href="https://www.linkedin.com/in/raajakartikeya/" target='_blank'><i className='bx bxl-linkedin' ></i></a>
+        <a target='_blank' href="https://leetcode.com/Raajakartikeya/"  ><CIcon id="leetcode" icon={cibLeetcode} /></a>
       </div>
 
       <div id='skills' className='skills'>
@@ -38,8 +58,14 @@ export default function App(){
         <img src="icons/react.png" alt="" />
         <img src="icons/python.png" alt="" />
         <img src="icons/cpp.png" alt="" />
+        <img src="icons/sql-server.png" alt="" />
       </div>
 
+    
+      <h1 id="projects">PROJECTS</h1>
+      <div className='project-container'>
+        <Projects />
+      </div>
     </>
   );
 }

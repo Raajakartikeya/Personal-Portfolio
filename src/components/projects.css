@@ -1,0 +1,45 @@
+.subcontainer{
+    width: 24rem;
+    margin-left: 40px;
+    background-color: rgba(234, 238, 238, 0.246);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.sub1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.subcontainer h3{
+    font-size: 24px;
+    color: #C4E4FF;
+}
+.subcontainer p{
+    text-align:center;
+}
+.socialicons{
+    margin-top: 20px;
+    text-align: center;
+}
+.socialicons a{
+    justify-content: center;
+    font-size: 2.2rem;
+    margin:2.8rem;
+    color: rgba(230, 163, 188, 0.988);
+    align-items: center;
+    background: transparent;
+    transition: 0.3s ease-in-out;
+}
+#link{
+    font-size: 2rem;
+}
+@media(max-width:650px){
+    .subcontainer{
+        width: 20rem;
+        margin-left: 30px;
+        background-color: rgba(234, 238, 238, 0.246);
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+}
