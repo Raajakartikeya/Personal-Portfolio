@@ -2,27 +2,19 @@ import React, { useState } from 'react'
 import CIcon from '@coreui/icons-react';
 import { cibLeetcode } from '@coreui/icons';
 import './index.css'
-import { Projects } from './components/Projects';
+import { Projects } from './components/Projects/';
 
 export default function App(){
 
-  const [navClass,setNavClass] = useState("navbar");
-  const [nameID, setNameID] = useState("name");
-  const [popup,setPopup] = useState("");
   const [button,setButton] = useState(false);
-  // if(button == true)
-  // {
-  //     setNavClass("navbar-active");
-  //     setNameID("namenone");
-  //     setPopup("popup-overlay");
-  // }
+
   function func()
   {
     button?setButton(false):setButton(true);
   }
   return (
     <>
-      <header className='header'>
+      <header id='home' className='header'>
         <a id={button?"namenone":"name"} href="#home">Raaja 
         <span id='sname'  > Kartikeya</span></a>
         <button onClick={func} className='menubtn'><i class='bx bx-menu'></i></button>
@@ -35,7 +27,7 @@ export default function App(){
         </nav>
       </header>
       <div className={button?"popup-overlay":""}></div>
-      <div className='image'>
+      <div  className='image'>
         <img src="images/img2.png" alt="" />
       </div>
      <h1 className='h1name'>I'm <span>Raaja Kartikeya</span></h1>
@@ -62,7 +54,7 @@ export default function App(){
       </div>
 
     
-      <h1 id="projects">PROJECTS</h1>
+      <h1 id='projects' className='projects'>PROJECTS</h1>
       <div className='project-container'>
         <Projects />
       </div>

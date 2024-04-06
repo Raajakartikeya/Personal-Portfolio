@@ -17,21 +17,26 @@ body{
     /* position: fixed; */
     top : 0;
     left: 0;
-    padding : 3rem;
+    padding : 1.2rem;
     width: 100%;
     display: flex;
-    align-items: center;
+   
+    
     z-index: 2;
 }
 .navbar{
-    margin-left: 31%;
+    position: absolute;
+    right : 8%;
 }
 .navbar a{
     font-size: 1.5rem;
     color: white;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     text-decoration: none;
     transition: 0.2s ease-in-out;
+    top: 10%;
+
 }
 #name{
     font-size: 1.5rem;
@@ -87,15 +92,18 @@ p{
     color: #04fffb;
 }
 .socialicons{
-    margin-top: 15px;
+    margin-top: 30px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
 }
 .socialicons a{
-    justify-content: center;
     font-size: 2.2rem;
-    margin:auto;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     color: white;
-    align-items: center;
     background: transparent;
     transition: 0.3s ease-in-out;
 }
@@ -109,8 +117,8 @@ p{
 }
 .skills{
     margin-top: 100px;
-    text-align: center;
     justify-content: center;
+    text-align: center;
     margin-bottom: 30px;
 }
 .skills h1,
@@ -122,21 +130,23 @@ p{
 .skills img{
     display:inline;
     width: 80px;
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .project-container{
     display: inline-flex;
     margin-top: 20px;
-    margin-left: 4%;
     flex-wrap: wrap;
     margin-bottom: 80px;
+    justify-content: center;
+    text-align: center;
 }
 #projects{
     justify-content: center;
     text-align: center;
     margin-top: 80px;
 }
-@media(max-width:650px)
+@media(max-width:1000px)
 {
     .menubtn{
         position: absolute;
@@ -146,7 +156,7 @@ p{
         border: none;
         font-size: 29px;
         right: 30px;
-        top:44px;
+        top:18px;
     }
     .image{
         margin-top: 15%;
@@ -157,23 +167,28 @@ p{
     }
     .skills h1,
     #projects{
-    color: white;
+    color: rgb(239, 6, 6);
     font-size: 4rem;
     margin-bottom: 38px;
+    margin-left: 20px;
     }
     .skills{
         margin-top: 100px;
         text-align: center;
         justify-content: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
     }
     .skills img{
         display:inline-flex;
         flex-wrap: wrap;
-        margin-top: 25px;
+        margin-top: 30px;
         width: 70px;
-        margin: auto;
-        margin: 10px;
+        margin:auto;
+        margin-left: 20px;
+        margin-top: 20px;
+
     }
     .project-container{
         margin: auto;
@@ -225,17 +240,21 @@ p{
     #namenone{
         display: none;
 }
-.socialicons{
+/* .socialicons{
     display: inline-flex;
-    text-align: center;
+    text-align:center;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
     
 }
 .socialicons a{
+    position: relative;
     font-size: 2rem;
-    margin:auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
     
-}
+} */
 
 
 }
