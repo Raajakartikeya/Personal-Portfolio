@@ -219,11 +219,22 @@ p{
     color:rgb(48, 149, 151);
     border-bottom: 1.5px solid ;
 }
-#name{
-    display: block;
+    #name{
+        display: block;
 }
-#namenone{
-    display: none;
+    #namenone{
+        display: none;
+}
+.socialicons{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.socialicons a{
+    font-size: 2rem;
+    margin:auto;
+    
 }
 
 
