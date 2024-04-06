@@ -65,8 +65,8 @@ function Pro(props){
                 <h3>{props.name}</h3>
                 <p>{props.description}</p>
                 <div className='socialicons1'>
-                {props.code && <a href={props.code}><i class='bx bx-code-alt'></i></a>}
-                {props.website && <a href={props.website}><i id="link" class='bx bx-link-external'></i></a>}
+                {props.code && <a href={props.code} target='_blank'><i class='bx bx-code-alt'></i></a>}
+                {props.website && <a href={props.website} target='_blank'><i id="link" class='bx bx-link-external'></i></a>}
                 </div>
             </div>
         </div>
