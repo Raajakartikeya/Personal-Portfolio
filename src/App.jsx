@@ -19,14 +19,14 @@ export default function App(){
         <span id='sname'  > Kartikeya</span></a>
         <button onClick={func} className='menubtn'><i class='bx bx-menu'></i></button>
         <nav className={button?"navbar-active":"navbar"}>
-          <a href="#home" >Home </a>
-          <a href="#skills">Skills </a>
-          <a href="#projects">Projects </a>
-          <a href="https://drive.google.com/file/d/1RcIQJZWY0ppQZIX1TKck1RLyLyjKSJxt/view" target='_blank'>Resume </a>
-          <a href="mailto:raajakartikeyanrs@gmail.com">Contact </a>
+          <a onClick={()=>setButton(false)} href="#home" >Home </a>
+          <a href="#skills" onClick={()=>setButton(false)}>Skills </a>
+          <a href="#projects" onClick={()=>setButton(false)}>Projects </a>
+          <a href="https://drive.google.com/file/d/1RcIQJZWY0ppQZIX1TKck1RLyLyjKSJxt/view" onClick={()=>setButton(false)} target='_blank'>Resume </a>
+          <a href="mailto:raajakartikeyanrs@gmail.com" onClick={()=>setButton(false)}>Contact </a>
         </nav>
       </header>
-      <div className={button?"popup-overlay":""}></div>
+      {/* <div className={button?"popup-overlay":""}></div> */}
       <div  className='image'>
         <img src="images/img2.png" alt="" />
       </div>
