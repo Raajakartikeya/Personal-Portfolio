@@ -51,8 +51,8 @@ const data = [
     {
         name : "ECE Association",
         description : "Created an interactive website for the ECE association, featuring event calendars, faculty directories, and an annual magazine section",
-        code : "https://github.com/Raajakartikeya/Student-Registration-Form-using-Flask-MySQL-HTML-and-CSS",
-        website : "https://github.com/Raajakartikeya/ECE-Association-Website"
+        code :  "https://github.com/Raajakartikeya/ECE-Association-Website",
+        website : "https://eceassociation.netlify.app/"
     }
 ];
 
