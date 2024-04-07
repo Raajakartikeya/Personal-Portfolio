@@ -2,6 +2,12 @@ import './projects.css'
 import PropTypes from 'prop-types';
 const data = [
     {
+        name : "Personal Portfolio Website",
+        description : "Designed and developed a personal portfolio website to exhibit my skill set and showcase diverse projects, offering a captivating glimpse into my abilities and achievements.",
+        code : "https://github.com/Raajakartikeya/Personal-Portfolio",
+        website : "https://raaja.vercel.app/"
+    },
+    {
         name : "Skin Disease Classification using ResNet50",
         description : "Improved the classification accuracy on an extensive dataset spanning eight distinct skin disease classes by configuring the model and tuning the hyperparameters.",
         code : "",
