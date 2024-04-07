@@ -38,7 +38,23 @@ body{
     top: 10%;
 
 }
+.navbar-active a{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    top: 10%;
+}
 #name{
+    font-size: 1.5rem;
+    color: white;
+    font-weight:200;
+    text-decoration: solid;
+
+}
+#namenone{
     font-size: 1.5rem;
     color: white;
     font-weight:200;
@@ -92,11 +108,11 @@ p{
     color: #04fffb;
 }
 .socialicons{
-    margin-top: 30px;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 50px;
 
 }
 .socialicons a{
@@ -214,11 +230,10 @@ p{
     }
     .navbar-active{
             position: relative;
-            margin-left: 50%;
-            display:flex;
+            left: 50%;
+            display:inline-flex;
             z-index: 2;
-            text-align: center;
-            display: block;
+            text-align:left;
             flex-direction: column;
             margin-top: 60px;
     }

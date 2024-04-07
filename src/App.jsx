@@ -7,7 +7,6 @@ import { Projects } from './components/Projects/';
 export default function App(){
 
   const [button,setButton] = useState(false);
-
   function func()
   {
     button?setButton(false):setButton(true);
@@ -17,7 +16,7 @@ export default function App(){
       <header id='home' className='header'>
         <a id={button?"namenone":"name"} href="#home">Raaja 
         <span id='sname'  > Kartikeya</span></a>
-        <button onClick={func} className='menubtn'><i class='bx bx-menu'></i></button>
+        <button onClick={func} className='menubtn'><i className='bx bx-menu'></i></button>
         <nav className={button?"navbar-active":"navbar"}>
           <a onClick={()=>setButton(false)} href="#home" >Home </a>
           <a href="#skills" onClick={()=>setButton(false)}>Skills </a>
