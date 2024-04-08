@@ -9,7 +9,7 @@ const data = [
     },
     {
         name : "Skin Disease Classification using ResNet50",
-        description : "Improved the classification accuracy on an extensive dataset spanning eight distinct skin disease classes by configuring the model and tuning the hyperparameters.",
+        description : "Improved the classification accuracy on an extensive dataset spanning eight distinct skin disease classes by tuning the hyperparameters.",
         code : "",
         website : ""
     },

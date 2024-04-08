@@ -30,10 +30,7 @@ export default function App(){
         <img src="images/img2.png" alt="" />
       </div>
      <h1 className='h1name'>I'm <span>Raaja Kartikeya</span></h1>
-     <p>To land a demanding job in a field where I can apply my knowledge,
-      expertise, and enthusiasm to successfully support the organisation's
-      success while advancing my own development on both a personal
-      and professional level.</p>
+     <p>Hello there! I'm a dedicated Software Developer fueled by a passion for programming and Front End Development. With a keen eye for detail and a love for crafting seamless user experiences, I'm committed to pushing the boundaries of innovation in the digital landscape. Let's build something amazing together!</p>
 
       <div className='socialicons'>
         <a href="https://github.com/raajakartikeya" target='_blank' ><i className='bx bxl-github' ></i></a>
