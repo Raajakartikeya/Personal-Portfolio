@@ -1,6 +1,7 @@
 .subcontainer{
     width: 24rem;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: rgba(234, 238, 238, 0.246);
     text-align: center;
     border-radius: 10px;
@@ -16,7 +17,6 @@
 }
 .subcontainer p{
     text-align:center;
-    text-align: justify;
 }
 .socialicons1{
     margin-top: 20px;
@@ -34,7 +34,7 @@
 #link{
     font-size: 2rem;
 }
-@media(max-width:1000px){
+@media(max-width:650px){
     .subcontainer{
         width: 20rem;
         margin:auto;
