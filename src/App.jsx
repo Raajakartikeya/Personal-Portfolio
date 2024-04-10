@@ -26,33 +26,35 @@ export default function App(){
         </nav>
       </header>
       {/* <div className={button?"popup-overlay":""}></div> */}
-      <div  className='image'>
-        <img src="images/img2.png" alt="" />
-      </div>
-     <h1 className='h1name'>I'm <span>Raaja Kartikeya</span></h1>
-     <p>Hello there! I'm a dedicated Software Developer fueled by a passion for programming and Front End Development. With a keen eye for detail and a love for crafting seamless user experiences, I'm committed to pushing the boundaries of innovation in the digital landscape. Let's build something amazing together!</p>
+      <div onClick={()=>{if(button)setButton(false)}}>
+        <div  className='image'>
+          <img src="images/img2.png" alt="" />
+        </div>
+      <h1 className='h1name'>I'm <span>Raaja Kartikeya</span></h1>
+      <p>Hello there! I'm a dedicated Software Developer fueled by a passion for programming and Front End Development. With a keen eye for detail and a love for crafting seamless user experiences, I'm committed to pushing the boundaries of innovation in the digital landscape. Let's build something amazing together!</p>
 
-      <div className='socialicons'>
-        <a href="https://github.com/raajakartikeya" target='_blank' ><i className='bx bxl-github' ></i></a>
-        <a href="https://www.linkedin.com/in/raajakartikeya/" target='_blank'><i className='bx bxl-linkedin' ></i></a>
-        <a target='_blank' href="https://leetcode.com/Raajakartikeya/"  ><CIcon id="leetcode" icon={cibLeetcode} /></a>
-      </div>
+        <div className='socialicons'>
+          <a href="https://github.com/raajakartikeya" target='_blank' ><i className='bx bxl-github' ></i></a>
+          <a href="https://www.linkedin.com/in/raajakartikeya/" target='_blank'><i className='bx bxl-linkedin' ></i></a>
+          <a target='_blank' href="https://leetcode.com/Raajakartikeya/"  ><CIcon id="leetcode" icon={cibLeetcode} /></a>
+        </div>
 
-      <div id='skills' className='skills'>
-        <h1>SKILLS</h1>
-        <img src="icons/html-5.png" alt="" />
-        <img src="icons/css-3.png" alt="" />
-        <img src="icons/js.png" alt="" />
-        <img src="icons/react.png" alt="" />
-        <img src="icons/python.png" alt="" />
-        <img src="icons/cpp.png" alt="" />
-        <img src="icons/sql-server.png" alt="" />
-      </div>
+        <div id='skills' className='skills'>
+          <h1>SKILLS</h1>
+          <img src="icons/html-5.png" alt="" />
+          <img src="icons/css-3.png" alt="" />
+          <img src="icons/js.png" alt="" />
+          <img src="icons/react.png" alt="" />
+          <img src="icons/python.png" alt="" />
+          <img src="icons/cpp.png" alt="" />
+          <img src="icons/sql-server.png" alt="" />
+        </div>
 
-    
-      <h1 id='projects' className='projects'>PROJECTS</h1>
-      <div className='project-container'>
-        <Projects />
+      
+        <h1 id='projects' className='projects'>PROJECTS</h1>
+        <div className='project-container'>
+          <Projects />
+        </div>
       </div>
     </>
   );
