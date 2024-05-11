@@ -237,8 +237,9 @@ p{
             z-index: 2;
             text-align:left;
             flex-direction: column;
-            margin-top: 60px;
+            margin-top: 60px;   
     }
+
     .navbar-active a{
             font-size: 2rem;
             color: white;
