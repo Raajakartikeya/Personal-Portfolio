@@ -20,10 +20,15 @@ const data = [
         website : "https://weather-app-raaja.vercel.app/"
     },
     {
+        name : "Railway Reservation System using C++",
+        description : "Developed a Railway Reservation System where passengers can book, cancel, and view their tickets. It manages berth preferences, RAC, and waiting lists efficiently to optimize seat allocation on train.",
+        code : "https://github.com/Raajakartikeya/Railway-Reservation-System"
+    },
+    {
         name : "Tic Tac Toe Game using React",
         description : "Implemented tic-tac-toe game using React. The project showcases proficiency in component creation, event handling, and building interactive user interfaces.",
         code : "https://github.com/Raajakartikeya/tic-tac-toe-using-react",
-        website : "https://tic-tac-toe-raaja.vercel.app/"
+        website : ""
     },
     {
         name : "Random Password Generator",
