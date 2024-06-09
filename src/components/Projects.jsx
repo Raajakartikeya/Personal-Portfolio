@@ -28,7 +28,7 @@ const data = [
         name : "Tic Tac Toe Game using React",
         description : "Implemented tic-tac-toe game using React. The project showcases proficiency in component creation, event handling, and building interactive user interfaces.",
         code : "https://github.com/Raajakartikeya/tic-tac-toe-using-react",
-        website : ""
+        website : "https://tic-tac-toe-raaja.vercel.app/"
     },
     {
         name : "Random Password Generator",
