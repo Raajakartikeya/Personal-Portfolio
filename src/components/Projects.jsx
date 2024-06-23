@@ -7,12 +7,12 @@ const data = [
         code : "https://github.com/Raajakartikeya/Personal-Portfolio",
         website : "https://raaja.vercel.app/"
     },
-    {
-        name : "Skin Disease Classification using ResNet50",
-        description : "Improved the classification accuracy on an extensive dataset spanning eight distinct skin disease classes by tuning the hyperparameters.",
-        code : "",
-        website : ""
-    },
+    // {
+    //     name : "Skin Disease Classification using ResNet50",
+    //     description : "Improved the classification accuracy on an extensive dataset spanning eight distinct skin disease classes by tuning the hyperparameters.",
+    //     code : "",
+    //     website : ""
+    // },
     {
         name : "Weather App",
         description : "Developed a dynamic Weather App using React, integrating OpenWeatherMap API for real-time weather data retrieval,showcasing proficiency in React and API integration.",
