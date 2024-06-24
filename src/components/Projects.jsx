@@ -25,6 +25,11 @@ const data = [
         code : "https://github.com/Raajakartikeya/Railway-Reservation-System"
     },
     {
+        name : "Taxi Booking System using C++",
+        description : "Developed Taxi Booking System where customers can book taxis based on availability and view booking details and taxi information. It efficiently allocates taxis considering pickup points, drop-off points, and availability.",
+        code : "https://github.com/Raajakartikeya/Taxi-Booking-Application"
+    },
+    {
         name : "Tic Tac Toe Game using React",
         description : "Implemented tic-tac-toe game using React. The project showcases proficiency in component creation, event handling, and building interactive user interfaces.",
         code : "https://github.com/Raajakartikeya/tic-tac-toe-using-react",
