@@ -22,7 +22,7 @@ export default function App(){
           <a onClick={()=>setButton(false)} href="#home" >Home </a>
           <a href="#skills" onClick={()=>setButton(false)}>Skills </a>
           <a href="#projects" onClick={()=>setButton(false)}>Projects </a>
-          <a href="https://drive.google.com/file/d/11oTxxOWRb52OIbmOSfHSfUFTbLXPqaed/view?usp=drive_link" onClick={()=>setButton(false)} target='_blank'>Resume </a>
+          <a href="https://drive.google.com/file/d/1VbRzWLvTlg3UWsI0erOK99cqLjCn1BsF/view?usp=sharing" onClick={()=>setButton(false)} target='_blank'>Resume </a>
           <a href="mailto:raajakartikeyanrs@gmail.com" onClick={()=>setButton(false)}>Contact </a>
         </nav>
       </header>
